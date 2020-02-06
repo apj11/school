@@ -47,12 +47,13 @@ class EventController extends Controller
         ]);
         $event = new Event();
         $event->title=$request->get('title');
+
         if($request->hasFile('image')){
             $image=$request->file('image');
             $image_new_name=time().$image->getClientOriginalName();
-            $destination='upload/topwide';
+            $destination='uploads/topwide';
             $image->move($destination,$image_new_name);
-            $event->image='/uploads/topwides'.$image_new_name;
+            $event->image = '/uploads/topwide/'.$image_new_name;
 
         }
         $event->description=$request->get('description');

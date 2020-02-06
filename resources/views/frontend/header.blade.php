@@ -46,7 +46,7 @@
                                     <nav>
                                         <ul>
                                             <li><a href="{{route('index')}}">HOME</a>
-                                            <span><a class="sr-only">(current)></span></a></li>
+                                            <span><a class="sr-only">(current)></a></span></li>
                                             <li><a href="{{route('abouts.index')}}">ABOUT</a></li>
                                             <li><a href="{{route('events.index')}}">NEWS AND EVENTS</a>
                                             </li>
@@ -76,16 +76,16 @@
                                                 <button type="submit">
                                                     <span><i class="fa fa-search"></i></span>
                                                 </button>
-                                            </form>                                
+                                            </form>
                                         </div>
                                     </div>
-                                </div>  
+                                </div>
                                 <!--End of Search Form-->
                                 <!-- Main Menu End -->
                             </div>
                         </div>
                         <div class="col-xs-12">
-                            <div class="mobile-menu hidden-lg hidden-md hidden-sm"></div> 
+                            <div class="mobile-menu hidden-lg hidden-md hidden-sm"></div>
                         </div>
                     </div>
                 </div>

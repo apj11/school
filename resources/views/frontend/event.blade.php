@@ -51,216 +51,36 @@
         </div>
 		<!-- Banner Area End -->
         <!-- Event Start -->
+
         <div class="event-area three text-center pt-50">
             <div class="container">
+
                 <div class="row">
+                    @foreach($event as $event)
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-event mb-60">
                             <div class="event-img">
-                                    <img src="img/event/event6.jpg" alt="event">
+                                <img src="{{asset(''.$event->image)}}" alt="event">
                                     <div class="course-hover">
                                         <i class="fa fa-link"></i>
                                     </div>
                                 <div class="event-date">
-                                    <h3>18 <span>jun</span></h3>
+                                    <h3> <span>{{$event->date}}</span></h3>
                                 </div>
                             </div>
                             <div class="event-content text-left">
-                                <h4>learning english history</h4>
+                                <h4>{{$event->title}}</h4>
                                 <ul>
-                                    <li><span>time:</span> 9.00 AM - 4.45 PM</li>
-                                    <li><span>venue</span> New Yourk City</li>
+                                    <li><span>time:</span>{{$event->time}}</li>
+                                    <li><span>venue</span> {{$event->venue}}</li>
                                 </ul>
                                 <div class="event-content-right">
-                                    <a class="default-btn" href="event-details.html">View Now</a>
+                                    <a class="default-btn" href="{{route('eventdetails.index')}}">View Now</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-event mb-60">
-                            <div class="event-img">
-                                    <img src="img/event/event6.jpg" alt="event">
-                                    <div class="course-hover">
-                                        <i class="fa fa-link"></i>
-                                    </div>
-                                <div class="event-date">
-                                    <h3>18 <span>jun</span></h3>
-                                </div>
-                            </div>
-                            <div class="event-content text-left">
-                                <h4>learning english history</h4>
-                                <ul>
-                                    <li><span>time:</span> 9.00 AM - 4.45 PM</li>
-                                    <li><span>venue</span> New Yourk City</li>
-                                </ul>
-                                <div class="event-content-right">
-                                    <a class="default-btn" href="event-details.html">View Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-event mb-60">
-                            <div class="event-img">
-                                    <img src="img/event/event6.jpg" alt="event">
-                                    <div class="course-hover">
-                                        <i class="fa fa-link"></i>
-                                    </div>
-                                <div class="event-date">
-                                    <h3>18 <span>jun</span></h3>
-                                </div>
-                            </div>
-                            <div class="event-content text-left">
-                                <h4>learning english history</h4>
-                                <ul>
-                                    <li><span>time:</span> 9.00 AM - 4.45 PM</li>
-                                    <li><span>venue</span> New Yourk City</li>
-                                </ul>
-                                <div class="event-content-right">
-                                    <a class="default-btn" href="event-details.html">View Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-event mb-60">
-                            <div class="event-img">
-                                    <img src="img/event/event6.jpg" alt="event">
-                                    <div class="course-hover">
-                                        <i class="fa fa-link"></i>
-                                    </div>
-                                <div class="event-date">
-                                    <h3>18 <span>jun</span></h3>
-                                </div>
-                            </div>
-                            <div class="event-content text-left">
-                                <h4>learning english history</h4>
-                                <ul>
-                                    <li><span>time:</span> 9.00 AM - 4.45 PM</li>
-                                    <li><span>venue</span> New Yourk City</li>
-                                </ul>
-                                <div class="event-content-right">
-                                    <a class="default-btn" href="event-details.html">View Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-event mb-60">
-                            <div class="event-img">
-                                    <img src="img/event/event6.jpg" alt="event">
-                                    <div class="course-hover">
-                                        <i class="fa fa-link"></i>
-                                    </div>
-                                <div class="event-date">
-                                    <h3>18 <span>jun</span></h3>
-                                </div>
-                            </div>
-                            <div class="event-content text-left">
-                                <h4>learning english history</h4>
-                                <ul>
-                                    <li><span>time:</span> 9.00 AM - 4.45 PM</li>
-                                    <li><span>venue</span> New Yourk City</li>
-                                </ul>
-                                <div class="event-content-right">
-                                    <a class="default-btn" href="event-details.html">View Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-event mb-60">
-                            <div class="event-img">
-                                    <img src="img/event/event6.jpg" alt="event">
-                                    <div class="course-hover">
-                                        <i class="fa fa-link"></i>
-                                    </div>
-                                <div class="event-date">
-                                    <h3>18 <span>jun</span></h3>
-                                </div>
-                            </div>
-                            <div class="event-content text-left">
-                                <h4>learning english history</h4>
-                                <ul>
-                                    <li><span>time:</span> 9.00 AM - 4.45 PM</li>
-                                    <li><span>venue</span> New Yourk City</li>
-                                </ul>
-                                <div class="event-content-right">
-                                    <a class="default-btn" href="event-details.html">View Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-event mb-60">
-                            <div class="event-img">
-                                    <img src="img/event/event6.jpg" alt="event">
-                                    <div class="course-hover">
-                                        <i class="fa fa-link"></i>
-                                    </div>
-                                <div class="event-date">
-                                    <h3>18 <span>jun</span></h3>
-                                </div>
-                            </div>
-                            <div class="event-content text-left">
-                                <h4>learning english history</h4>
-                                <ul>
-                                    <li><span>time:</span> 9.00 AM - 4.45 PM</li>
-                                    <li><span>venue</span> New Yourk City</li>
-                                </ul>
-                                <div class="event-content-right">
-                                    <a class="default-btn" href="event-details.html">View Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                   <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-event mb-60">
-                            <div class="event-img">
-                                    <img src="img/event/event6.jpg" alt="event">
-                                    <div class="course-hover">
-                                        <i class="fa fa-link"></i>
-                                    </div>
-                                <div class="event-date">
-                                    <h3>18 <span>jun</span></h3>
-                                </div>
-                            </div>
-                            <div class="event-content text-left">
-                                <h4>learning english history</h4>
-                                <ul>
-                                    <li><span>time:</span> 9.00 AM - 4.45 PM</li>
-                                    <li><span>venue</span> New Yourk City</li>
-                                </ul>
-                                <div class="event-content-right">
-                                    <a class="default-btn" href="event-details.html">View Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-event mb-60">
-                            <div class="event-img">
-                                    <img src="img/event/event6.jpg" alt="event">
-                                    <div class="course-hover">
-                                        <i class="fa fa-link"></i>
-                                    </div>
-                                <div class="event-date">
-                                    <h3>18 <span>jun</span></h3>
-                                </div>
-                            </div>
-                            <div class="event-content text-left">
-                                <h4>learning english history</h4>
-                                <ul>
-                                    <li><span>time:</span> 9.00 AM - 4.45 PM</li>
-                                    <li><span>venue</span> New Yourk City</li>
-                                </ul>
-                                <div class="event-content-right">
-                                    <a class="default-btn" href="event-details.html">View Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                        @endforeach
                 </div>
             </div>
         </div>

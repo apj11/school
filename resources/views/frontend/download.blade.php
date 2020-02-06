@@ -48,7 +48,7 @@
         </div>
         <!-- Banner Area End -->
         <section class="notice-area pt-50">
-            <div class="container panel panel-primary">
+            <div class="container">
                 <table class="table table-bordered">
                       <thead>
                         <tr>
@@ -68,7 +68,7 @@
                         <td >{{$download->date}} </td>
                         <td>
                         <a href="<?php echo $download["file"] ?>"<?php echo $download["file"] ?> class="btn btn-info btn-lg">
-                            <span class="glyphicon-download"></span> Download
+                            Download
                             </a>
                         </td>
 

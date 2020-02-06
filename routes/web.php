@@ -22,6 +22,16 @@
         Route::resource('galleries','Frontend\GalleryController');
         Route::resource('downloads','Frontend\DownloadController');
         Route::resource('contacts','Frontend\ContactController');
+        Route::resource('/image','Frontend\ImageController');
+
+        Route::resource('/management','Frontend\ManagementController');
+        Route::resource('/science','Frontend\ScienceController');
+        Route::resource('/school','Frontend\SchoolController');
+
+
+        Route::resource('/blogdetails','Frontend\BlogdetailsController');
+        Route::resource('/teacherdetails','Frontend\TeacherdetailsController');
+        Route::resource('/eventdetails','Frontend\EventdetailsController');
 
 
         Route::group(['middleware' => ['auth:admin']], function() {

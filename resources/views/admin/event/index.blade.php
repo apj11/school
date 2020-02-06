@@ -288,12 +288,13 @@
                 </tr>
                 </thead>
                 <tbody>
+{{--                {{dd($event)}}--}}
                 @foreach($event as $key =>$event )
                     <tr id="event{{$event->id}}">
                         <td class="text-center">{{++$key}}</td>
                         <td>{{$event->title}}</td>
                         <td >{!! $event->description !!} </td>
-                        <td ><img src="{{asset(''.$event->image)}}" height="100px" width="100px"></td>
+                        <td ><img src="{{asset(''.$event->image)}}"></td>
                         <td>{{$event->venue}}</td>
                         <td >{{$event->time}} </td>
                         <td >{{$event->date}} </td>

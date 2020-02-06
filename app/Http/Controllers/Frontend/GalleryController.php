@@ -4,7 +4,9 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-
+use DB;
+use App\Category;
+use App\Gallery;
 class GalleryController extends Controller
 {
     /**
@@ -14,7 +16,8 @@ class GalleryController extends Controller
      */
     public function index()
     {
-        return view('frontend.gallery');
+        $category=DB::select('select * from categories');
+        return view('frontend.gallery')->with('category',$category);
     }
 
     /**

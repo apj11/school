@@ -38,20 +38,20 @@
 		<!-- Header Area End -->
 		<!-- Banner Area Start -->
 		<div class="banner-area-wrapper">
-            <div class="banner-area text-center">	
+            <div class="banner-area text-center">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="banner-content-wrapper">
                                 <div class="banner-content">
-                                    <h2>blog details</h2> 
-                                </div> 
+                                    <h2>blog details</h2>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>    
+        </div>
 		<!-- Banner Area End -->
         <!-- Blog Start -->
         <div class="blog-details-area pt-50 pb-60">
@@ -80,13 +80,13 @@
                                     <li><a href="#">Science </a></li>
                                     <li><a href="#">Management</a></li>
                                     <li><a href="#">School</a></li>
-                                   
+
                                 </ul>
                             </div>
                             <div class="single-blog-widget mb-47">
                                 <div class="single-blog-banner">
                                     <a href="blog-details.html" id="blog"><img src="img/blog/blog-img.jpg" alt="blog"></a>
-                                    <h2>best<br> eductaion<br> theme</h2> 
+                                    <h2>best<br> eductaion<br> theme</h2>
                                 </div>
                             </div>
                         </div>
@@ -100,7 +100,7 @@
         <!-- Footer Start -->
 
        @include('frontend.footer')
-       
+
         <!-- Footer End -->
 
         <script src="js/vendor/jquery-1.12.0.min.js"></script>

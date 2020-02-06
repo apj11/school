@@ -54,51 +54,23 @@
         <div class="courses-area pt-50 text-center">
             <div class="container">
                 <div class="row">
+                    @foreach($category as $category)
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-course">
+                        <div class="single-gallery-img">
                             <div class="course-img">
-                                <a href="course-details.html"><img src="img/course/course1.jpg" alt="course">
+                                <a href="{{route('image.index')}}"> <img src="{{asset(''.$category->image)}}" alt="course">
                                     <div class="course-hover">
                                         <i class="fa fa-link"></i>
                                     </div>
                                 </a>
                             </div>
                             <div class="course-content">
-                                <h3><a href="image.html">Programs</a></h3>
-                                <a class="default-btn" href="image.html">View More</a>
+                                <h3>{{$category->title}}</h3>
+                                <a class="default-btn" href="{{route('image.index')}}">View More</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-course">
-                            <div class="course-img">
-                                <a href="course-details.html"><img src="img/course/course2.jpg" alt="course">
-                                    <div class="course-hover">
-                                        <i class="fa fa-link"></i>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="course-content">
-                                <h3><a href="image.html">Programs</a></h3>
-                                <a class="default-btn" href="image.html">View More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 hidden-sm col-xs-12">
-                        <div class="single-course">
-                            <div class="course-img">
-                                <a href="course-details.html"><img src="img/course/course3.jpg" alt="course">
-                                    <div class="course-hover">
-                                        <i class="fa fa-link"></i>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="course-content">
-                                <h3><a href="image.html">Programs</a></h3>
-                                <a class="default-btn" href="image.html">View More</a>
-                            </div>
-                        </div>
-                    </div>
+                        @endforeach
                 </div>
             </div>
         </div>

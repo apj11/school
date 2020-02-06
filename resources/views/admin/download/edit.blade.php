@@ -13,7 +13,7 @@
                 <!-- END General Data Title -->
 
                 <!-- General Data Content -->
-                <form action="{{route('download.update',[$download ?? ''->id])}}" method="post" class="form-horizontal form-bordered"  enctype="multipart/form-data">
+                <form action="{{route('download.update',[$download ->id])}}" method="post" class="form-horizontal form-bordered"  enctype="multipart/form-data">
 
                     @csrf
                     @method('PUT')
@@ -27,7 +27,7 @@
                     <div class="form-group">
                         <label class="col-md-3 control-label" for="product-name">Title</label>
                         <div class="col-md-9">
-                            <input type="text" id="title" name="title" class="form-control {{ $errors->has('title') ? 'has-error' : '' }}"  value="{{ old('title', isset($download ?? '') ? $download ?? ''->title : '') }}">
+                            <input type="text" id="title" name="title" class="form-control {{ $errors->has('title') ? 'has-error' : '' }}"  value="{{ old('title', isset($download ) ? $download ->title : '') }}">
 
 
                             @if ($errors->has('title'))

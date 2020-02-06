@@ -1,13 +1,12 @@
 <?php
 
 namespace App\Http\Controllers\Frontend;
-use App\Testimonial;
-use DB;
-use App\Blog;
+
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Blog;
 
-class IndexController extends Controller
+class BlogdetailsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,14 +15,8 @@ class IndexController extends Controller
      */
     public function index()
     {
-        $notice=DB::select('select * from notices');
-        $event=DB::select('select * from events');
-        $blog= Blog::all();
-        $testimonial= Testimonial::all();
-        return view('frontend.index',['event'=>$event],['notice'=>$notice])
-            ->with('testimonial',$testimonial)
-        ->with('blog',$blog);
-//
+        $data['blogs'] = Blog::all();
+        return view('frontend.blogdetails', $data);
     }
 
     /**
@@ -33,7 +26,7 @@ class IndexController extends Controller
      */
     public function create()
     {
-
+        //
     }
 
     /**
@@ -55,7 +48,9 @@ class IndexController extends Controller
      */
     public function show($id)
     {
-        //
+        $data['blogdetail'] = Blog::findOrFail($id);
+//        dd($data);
+        return view('frontend.blogdetails', $data);
     }
 
     /**

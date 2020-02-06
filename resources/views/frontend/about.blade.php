@@ -67,7 +67,7 @@
                     </div>
                     <div class="col-md-6 col-sm-6">
                         <div class="about-img">
-                            <img src="img/about/about.png" alt="about">
+                            <img src="img/banner/school1.jpg" alt="about">
                         </div>
                     </div>
                 </div>
@@ -86,136 +86,24 @@
                     </div>
                 </div>
                 <div class="row">
+                    @foreach($teacherdetail as $teacherdetail)
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="single-teacher">
                             <div class="single-teacher-img">
-                                <a href="teacher-details.html"><img src="img/teacher/teacher1.jpg" alt="teacher"></a>
+                                <a href="{{route('teacherdetails.index')}}"><img src="{{asset(''.$teacherdetail->image)}}"></a>
                             </div>
                             <div class="single-teacher-content text-center">
-                                <h2><a href="">STUART KELVIN</a></h2>
-                                <h4>Associate Professor</h4>
+                                <h2><a href="{{route('teacherdetails.index')}}">{{$teacherdetail->name}}</a></h2>
+                                <h4>{{$teacherdetail->profession}}</h4>
                                 <ul>
-                                    <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
-                                    <li><a  href="www.instagram.com"><i class="zmdi zmdi-instagram"></i></a></li>
-                                    <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    <li><a href="https://{{$teacherdetail->facebook}}"><i class="zmdi zmdi-facebook"></i></a></li>
+                                    <li><a  href="https://{{$teacherdetail->instagram}}"><i class="zmdi zmdi-instagram"></i></a></li>
+                                    <li><a href="https://{{$teacherdetail->twitter}}"><i class="zmdi zmdi-twitter"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-4 col-xs-12">
-                        <div class="single-teacher">
-                            <div class="single-teacher-img">
-                                <a href="teacher-details.html"><img src="img/teacher/teacher2.jpg" alt="teacher"></a>
-                            </div>
-                            <div class="single-teacher-content text-center">
-                                <h2><a href="teacher-details.html">eamily cristian</a></h2>
-                                <h4>Associate Professor</h4>
-                                <ul>
-                                    <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
-
-                                    <li><a  href="www.instagram.com"><i class="zmdi zmdi-instagram"></i></a></li>
-                                    <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-4 col-xs-12">
-                        <div class="single-teacher">
-                            <div class="single-teacher-img">
-                                <a href="teacher-details.html"><img src="img/teacher/teacher3.jpg" alt="teacher"></a>
-                            </div>
-                            <div class="single-teacher-content text-center">
-                                <h2><a href="teacher-details.html">kevin williams</a></h2>
-                                <h4>Associate Professor</h4>
-                                <ul>
-                                    <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
-                                    <li><a href="www.instagram.com"><i class="zmdi zmdi-instagram"></i></a></li>
-                                    <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-4 col-xs-12">
-                        <div class="single-teacher">
-                            <div class="single-teacher-img">
-                                <a href="teacher-details.html"><img src="img/teacher/teacher3.jpg" alt="teacher"></a>
-                            </div>
-                            <div class="single-teacher-content text-center">
-                                <h2><a href="teacher-details.html">kevin williams</a></h2>
-                                <h4>Associate Professor</h4>
-                                <ul>
-                                    <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
-                                    <li><a href="www.instagram.com"><i class="zmdi zmdi-instagram"></i></a></li>
-                                    <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-4 col-xs-12">
-                        <div class="single-teacher">
-                            <div class="single-teacher-img">
-                                <a href="teacher-details.html"><img src="img/teacher/teacher3.jpg" alt="teacher"></a>
-                            </div>
-                            <div class="single-teacher-content text-center">
-                                <h2><a href="teacher-details.html">kevin williams</a></h2>
-                                <h4>Associate Professor</h4>
-                                <ul>
-                                    <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
-                                    <li><a href="www.instagram.com"><i class="zmdi zmdi-instagram"></i></a></li>
-                                    <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-4 col-xs-12">
-                        <div class="single-teacher">
-                            <div class="single-teacher-img">
-                                <a href="teacher-details.html"><img src="img/teacher/teacher3.jpg" alt="teacher"></a>
-                            </div>
-                            <div class="single-teacher-content text-center">
-                                <h2><a href="teacher-details.html">kevin williams</a></h2>
-                                <h4>Associate Professor</h4>
-                                <ul>
-                                    <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
-                                    <li><a href="www.instagram.com"><i class="zmdi zmdi-instagram"></i></a></li>
-                                    <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-4 col-xs-12">
-                        <div class="single-teacher">
-                            <div class="single-teacher-img">
-                                <a href="teacher-details.html"><img src="img/teacher/teacher3.jpg" alt="teacher"></a>
-                            </div>
-                            <div class="single-teacher-content text-center">
-                                <h2><a href="teacher-details.html">kevin williams</a></h2>
-                                <h4>Associate Professor</h4>
-                                <ul>
-                                    <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
-                                    <li><a href="www.instagram.com"><i class="zmdi zmdi-instagram"></i></a></li>
-                                    <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 hidden-sm col-xs-12">
-                        <div class="single-teacher">
-                            <div class="single-teacher-img">
-                                <a href="teacher-details.html"><img src="img/teacher/teacher4.jpg" alt="teacher"></a>
-                            </div>
-                            <div class="single-teacher-content text-center">
-                                <h2><a href="teacher-details.html">salina gomaze</a></h2>
-                                <h4>Associate Professor</h4>
-                                <ul>
-                                    <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
-
-                                    <li><a href="www.instagram.com"><i class="zmdi zmdi-instagram"></i></a></li>
-                                    <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>

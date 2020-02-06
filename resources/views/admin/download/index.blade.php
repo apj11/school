@@ -293,7 +293,7 @@
                         <td >{!! $download->description !!} </td>
                         <td >{{$download->date}} </td>
                         <td ><a href="<?php echo $download["file"] ?>"><?php echo $download["file"] ?></a></td>
-                        
+
                         {{--                        <td >{{$download->author}} </td>--}}
                         {{--                        <td >{!! $download->category !!} </td>--}}
                         {{--                        --}}{{--                    <td>{{$customer->companyName}}</td>--}}
@@ -307,8 +307,8 @@
                         <td class="d-md-flex">
                             {{--                            <div class="mg-r-20" title="View"><a href="{{route('customer.show',$customer->id)}}"><i class="icon ion-clipboard text-success"></i></a></div>--}}
                             <div class="mg-r-20" title="Edit"><a href="{{route('download.edit',$download->id)}}"><i class="far fa-edit text-warning"></i></a></div>
-                            {{--                            <div class="mg-r-20" title="Delete"><a href="{{route('about.destroy',$about->id)}}" onclick="return confirm('Are you sure you want to delete this item?');"><i class="icon ion-trash-b text-danger"></i></a></div>--}}
-                            <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger remove_button" url="{{route('download.destroy',$download->id)}}"><i class="fa fa-times"></i></a>
+                      <div class="mg-r-20" title="Delete"><a href="{{route('download.destroy',$download->id)}}" onclick="return confirm('Are you sure you want to delete this item?');"><i class="icon ion-trash-b text-danger"></i></a></div>
+{{--                            <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger remove_button" url="{{route('download.destroy',$download->id)}}"><i class="fa fa-times"></i></a>--}}
                         </td>
                     </tr>
                     {{--                <tr>--}}
@@ -343,7 +343,7 @@
         </div><!-- component-section -->
 
     </div>
-    
+
     <!-- content-body -->
     {{--    @include('admin.partials.footer')--}}
     {{-- <div class="content-footer">

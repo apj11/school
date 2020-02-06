@@ -87,10 +87,10 @@
 
                                     </div>
                                 </div>
-                                
 
 
-                                
+
+
                                 <div class="form-group">
                                     <label class="col-md-3 control-label" for="product-name">File</label>
                                     <div class="col-md-9">
@@ -125,7 +125,7 @@
                                 </div> -->
 
 
-                                
+
 
 
 {{--                                <div class="form-group">--}}
@@ -300,7 +300,7 @@
 {{--                                            <input type="checkbox" id="product-status" name="product-status" checked><span></span>--}}
 {{--                                        </label>--}}
 {{--                                    </div>--}}
-{{--                                </div>--}}z
+{{--                                </div>--}}
                                 <div class="form-group form-actions">
                                     <div class="col-md-9 col-md-offset-3">
                                         <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-floppy-o"></i> Save</button>

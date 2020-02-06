@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61ffe450-e40a-4156-8b38-43f5332cb9a9" name="Default Changelist" comment="" />
+    <list default="true" id="61ffe450-e40a-4156-8b38-43f5332cb9a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/BlogdetailsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/EventdetailsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/ImageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/ManagementController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/SchoolController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/ScienceController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/TeacherdetailsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/banner/school1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/course/management.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/course/school.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/course/science.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/15809674811111 - Copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1580969017Screenshot (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1580969067Screenshot (3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1580969217children2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1580971683children2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1580974260children2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1580974422about1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1580974924add.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1580975012AVIcover .docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1580975991Screenshot (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1580984392Screenshot (3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/management.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/school.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/science.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/EventController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/EventController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/AboutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/AboutController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/EventController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/EventController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/GalleryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/GalleryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/download/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/download/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/download/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/download/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/download/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/download/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/event/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/event/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/teacherdetail/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/teacherdetail/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/blog-details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/blogdetails.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/download.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/download.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/event-details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/eventdetails.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/event.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/event.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/gallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/gallery.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/teacher-details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/teacherdetails.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +75,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -119,13 +171,18 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1XLu9l9o8UlInVXbmnXotVpUe6F" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -150,11 +207,15 @@
       <workItem from="1580840021238" duration="618000" />
       <workItem from="1580879624217" duration="18145000" />
       <workItem from="1580906884710" duration="4627000" />
+      <workItem from="1580962916764" duration="21725000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="390" y="0" key="#PHP" timestamp="1580837885892">
@@ -173,10 +234,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="116" y="0" width="1154" height="738" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1580840595812" />
-    <state x="384" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1580906924946">
+    <state x="398" y="133" key="com.intellij.ide.util.TipDialog" timestamp="1580962925565">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="384" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1580906924946" />
+    <state x="398" y="133" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1580962925565" />
     <state x="0" y="0" width="737" height="738" key="find.popup" timestamp="1580884179449">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -185,10 +246,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="371" y="216" width="707" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.738@0.0.1366.738" timestamp="1580838246932" />
-    <state x="339" y="165" key="run.anything.popup" timestamp="1580895892084">
+    <state x="339" y="165" key="run.anything.popup" timestamp="1580971313461">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1580895892084" />
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1580971313461" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1580883469502">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

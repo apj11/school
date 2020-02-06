@@ -1,10 +1,11 @@
 <?php
 
 namespace App\Http\Controllers\Frontend;
-
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-
+use App\About;
+use DB;
+use App\Teacherdetail;
 class AboutController extends Controller
 {
     /**
@@ -14,7 +15,8 @@ class AboutController extends Controller
      */
     public function index()
     {
-        return view('frontend.about');
+        $teacherdetail=DB::select('select * from teacherdetails');
+        return view('frontend.about')->with('teacherdetail',$teacherdetail);
     }
 
     /**

@@ -2538,6 +2538,15 @@ textarea {
     height: 88%;
     z-index: -1;
 }
+
+.single-teacher-img img{
+    height: 250px;
+    width: 100%;
+}
+.single-gallery-img img{
+    height: 300px;
+    width: 100%;
+}
 /*----------------------------------------*/
 /*  15. Teacher CSS
 /*----------------------------------------*/

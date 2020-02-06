@@ -4,7 +4,8 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-
+use DB;
+use App\Event;
 class EventController extends Controller
 {
     /**
@@ -14,7 +15,8 @@ class EventController extends Controller
      */
     public function index()
     {
-        return view('frontend.event');
+        $event=Event::all();
+        return view('frontend.event')->with('event',$event);
     }
 
     /**

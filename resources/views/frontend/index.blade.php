@@ -167,50 +167,50 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-course">
+                        <div class="single-gallery-img">
                             <div class="course-img">
-                                <a href="course-details.html"><img src="img/course/course1.jpg" alt="course">
+                                <a href="{{route('school.index')}}"><img src="{{ asset('img/course/school.jpg')}}" alt="course">
                                     <div class="course-hover">
                                         <i class="fa fa-link"></i>
                                     </div>
                                 </a>
                             </div>
                             <div class="course-content">
-                                <h3><a href="course-details.html">School</a></h3>
+                                <h3><a href="{{route('school.index')}}">School</a></h3>
                                 <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness</p>
-                                <a class="default-btn" href="course-details.html">read more</a>
+                                <a class="default-btn" href="{{route('school.index')}}">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-course">
+                        <div class="single-gallery-img">
                             <div class="course-img">
-                                <a href="course-details.html"><img src="img/course/course2.jpg" alt="course">
+                                <a href="{{route('science.index')}}"><img src="{{ asset('img/course/science.jpg')}}" alt="course">
                                     <div class="course-hover">
                                         <i class="fa fa-link"></i>
                                     </div>
                                 </a>
                             </div>
                             <div class="course-content">
-                                <h3><a href="course-details.html">Science</a></h3>
+                                <h3><a href="{{route('science.index')}}">Science</a></h3>
                                 <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness</p>
-                                <a class="default-btn" href="course-details.html">Read more</a>
+                                <a class="default-btn" href="{{route('science.index')}}">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 hidden-sm col-xs-12">
-                        <div class="single-course">
+                        <div class="single-gallery-img">
                             <div class="course-img">
-                                <a href="course-details.html"><img src="img/course/course3.jpg" alt="course">
+                                <a href="{{route('management.index')}}"><img src="{{ asset('img/course/management.jpg')}}" alt="course">
                                     <div class="course-hover">
                                         <i class="fa fa-link"></i>
                                     </div>
                                 </a>
                             </div>
                             <div class="course-content">
-                                <h3><a href="course-details.html">Management</a></h3>
+                                <h3><a href="{{route('management.index')}}">Management</a></h3>
                                 <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness</p>
-                                <a class="default-btn" href="course-details.html">read more</a>
+                                <a class="default-btn" href="{{route('management.index')}}">read more</a>
                             </div>
                         </div>
                     </div>
@@ -237,11 +237,11 @@
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="single-event mb-35">
                             <div class="event-date">
-                                <h3><a href="event-details.html"><span>{{$event->date}}</span></a></h3>
+                                <h3><a href="{{route('eventdetails.index')}}"><span>{{$event->date}}</span></a></h3>
                             </div>
                             <div class="event-content text-left">
                                 <div class="event-content-left">
-                                    <h4><a href="event-details.html">{{$event->title}}</a></h4>
+                                    <h4><a href="{{route('eventdetails.index')}}">{{$event->title}}</a></h4>
                                     <ul>
                                         <li><i class="fa fa-clock-o"></i>{{$event->time}}</li>
                                         <li><i class="fa fa-map-marker"></i>{{$event->venue}}</li>
@@ -283,6 +283,7 @@
         </div>
         <!-- Testimonial Area End -->
         <!-- Blog Area Start -->
+
         <div class="blog-area pt-50 pb-60">
             <div class="container">
                 <div class="row">
@@ -293,27 +294,29 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="row">
+
+                    @foreach($blog as $blog)
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-blog">
                             <div class="blog-img">
-                                <a href="blog-details.html"><img src="img/blog/blog1.jpg" alt="blog"></a>
+                                <a href="{{route('blogdetails.show', $blog->id)}}"><img src="{{asset(''.$blog->image)}}" height="300px" width="100%" alt="blog"></a>
                                 <div class="blog-hover">
-                                    <a href="blog-details.html"><i class="fa fa-link"></i></a>
+                                    <a href="{{route('blogdetails.show', $blog->id)}}"><i class="fa fa-link"></i></a>
                                 </div>
                             </div>
                             <div class="blog-content">
                                 <div class="blog-top">
-                                    <p>By Alex  /  June 20, 2017 </p>
+                                    <p>By {{$blog->name}} /  {{$blog->date}} </p>
                                 </div>
                                 <div class="blog-bottom">
-                                    <h2><a href="blog-details.html">I must explain to you how all this a mistaken idea </a></h2>
-                                    <a href="blog-details.html">read more</a>
+                                    <h2><a href="{{route('blogdetails.show', $blog->id)}}">{{$blog->title}} </a></h2>
+                                    <a href="{{route('blogdetails.show', $blog->id)}}">read more</a>
                                 </div>
                             </div>
                         </div>
                     </div>
+                        @endforeach
                 </div>
             </div>
         </div>
