@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\Frontend;
-
+use App\Event;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
@@ -14,7 +14,9 @@ class EventdetailsController extends Controller
      */
     public function index()
     {
-        return view('frontend.eventdetails');
+
+        $data['events'] = Event::all();
+        return view('frontend.eventdetails',$data);
     }
 
     /**
@@ -46,7 +48,9 @@ class EventdetailsController extends Controller
      */
     public function show($id)
     {
-        //
+        $data['eventdetail'] = Event::findOrFail($id);
+//        dd($data);
+        return view('frontend.eventdetails', $data)->with('eventdetail',$data);
     }
 
     /**

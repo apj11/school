@@ -48,9 +48,11 @@ class BlogdetailsController extends Controller
      */
     public function show($id)
     {
+//        $data['blogs'] = Blog::all();
         $data['blogdetail'] = Blog::findOrFail($id);
 //        dd($data);
-        return view('frontend.blogdetails', $data);
+        return view('frontend.blogdetails', $data)->with('blogdetail',$data);
+//            ->with('blog',$data);
     }
 
     /**

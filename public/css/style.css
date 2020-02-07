@@ -1888,7 +1888,8 @@ textarea {
 /*----------------------------------------*/
 /*  9. Blog CSS
 /*----------------------------------------*/
-.single-blog{box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15)}
+.single-blog{
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15)}
 .blog-area .section-title h2 {
     margin-bottom: 55px;
 }
@@ -2544,7 +2545,7 @@ textarea {
     width: 100%;
 }
 .single-gallery-img img{
-    height: 300px;
+    height: 250px;
     width: 100%;
 }
 /*----------------------------------------*/

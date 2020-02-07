@@ -90,10 +90,10 @@
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="single-teacher">
                             <div class="single-teacher-img">
-                                <a href="{{route('teacherdetails.index')}}"><img src="{{asset(''.$teacherdetail->image)}}"></a>
+                                <a href="{{route('teacherdetails.show',$teacherdetail->id)}}"><img src="{{asset(''.$teacherdetail->image)}}"></a>
                             </div>
                             <div class="single-teacher-content text-center">
-                                <h2><a href="{{route('teacherdetails.index')}}">{{$teacherdetail->name}}</a></h2>
+                                <h2><a href="{{route('teacherdetails.show',$teacherdetail->id)}}">{{$teacherdetail->name}}</a></h2>
                                 <h4>{{$teacherdetail->profession}}</h4>
                                 <ul>
                                     <li><a href="https://{{$teacherdetail->facebook}}"><i class="zmdi zmdi-facebook"></i></a></li>

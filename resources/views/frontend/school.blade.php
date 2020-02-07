@@ -33,21 +33,7 @@
 @include('frontend.header')
 <!-- Header Area End -->
 <!-- Banner Area Start -->
-<div class="banner-area-wrapper">
-    <div class="banner-area text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="banner-content-wrapper">
-                        <div class="banner-content">
-                            <h2>courses details</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 <!-- Banner Area End -->
 <!-- Blog Start -->
 <div class="courses-details-area blog-area pt-50">
@@ -60,9 +46,16 @@
                     </div>
                     <div class="course-details-content">
                         <h2>School</h2>
-                        <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness pcias unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                        <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness pcias unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                        <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness pcias unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        <p>
+                        <H3>Primary Education</H3>
+                           <p> Nepal has ambitious plans in place to turn education around by 2015 and ensure that every Nepalese child has an equal chance. The current program begins with 5 years of primary school, with pre-primary preparation available only in a few areas. At the end of this period, a standard school leaving certificate examination is prescribed.</p>
+
+                        <H3> Middle Education</H3>
+                            <p>Three years of lower secondary grade education follow. Students also have the option of moving on to a technical school instead, and obtaining a training level certificate.</p>
+
+                        <H3>Secondary Education</H3>
+                            <p>Secondary education takes place in 2 stages. Grades 9 to 10 follow a common academic curriculum leading to a school leaving certificate. During grades 11 to 12 though, there are opportunities to follow separate streams in commerce, education, humanities or science, and to receive a higher education certificate.</p>
+                    </p>
                     </div>
 
                 </div>
@@ -72,14 +65,14 @@
                     <div class="single-blog-widget mb-50">
                         <h3>categories</h3>
                         <ul>
-                            <li><a href="#">Science</a></li>
-                            <li><a href="#">Management</a></li>
-                            <li><a href="#">School</a></li>
+                            <li><a href="{{route('science.index')}}">Science</a></li>
+                            <li><a href="{{route('management.index')}}">Management</a></li>
+                            <li><a href="{{route('school.index')}}">School</a></li>
                         </ul>
                     </div>
                     <div class="single-blog-widget mb-50">
                         <div class="single-blog-banner">
-                            <a href="blog-details.html" id="blog"><img src="img/blog/blog-img.jpg" alt="blog"></a>
+                            <a id="blog"><img src="{{asset('img/course/education.jpg')}}" alt="blog"></a>
                             <h2>best<br> eductaion<br> theme</h2>
                         </div>
                     </div>

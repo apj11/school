@@ -58,7 +58,7 @@
                 <div class="row">
                     @foreach($event as $event)
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-event mb-60">
+                        <div class="single-gallery-img mb-60">
                             <div class="event-img">
                                 <img src="{{asset(''.$event->image)}}" alt="event">
                                     <div class="course-hover">
@@ -75,7 +75,7 @@
                                     <li><span>venue</span> {{$event->venue}}</li>
                                 </ul>
                                 <div class="event-content-right">
-                                    <a class="default-btn" href="{{route('eventdetails.index')}}">View Now</a>
+                                    <a class="default-btn" href="{{route('eventdetails.show', $event->id)}}">View Now</a>
                                 </div>
                             </div>
                         </div>

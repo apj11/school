@@ -33,21 +33,7 @@
 @include('frontend.header')
 <!-- Header Area End -->
 <!-- Banner Area Start -->
-<div class="banner-area-wrapper">
-    <div class="banner-area text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="banner-content-wrapper">
-                        <div class="banner-content">
-                            <h2>courses details</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 <!-- Banner Area End -->
 <!-- Blog Start -->
 <div class="courses-details-area blog-area pt-50">
@@ -60,9 +46,15 @@
                     </div>
                     <div class="course-details-content">
                         <h2>Management</h2>
-                        <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness pcias unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                        <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness pcias unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                        <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness pcias unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        <p>Generally, Management is the process of managing an organization. Management is not only about managing a single activity but it is also the act of dealing with or controlling things or people. It includes all the activities that take place in an organization from private institutions to government bodies, from schools to colleges, from profit motive business to non-profit organization. Considering the high importance of management, it is studied at colleges and universities as well.</p>
+
+                        <p>   Management is a continuous and never-ending process as none of the organization is possible to happen without management. To run any organization itself involves different steps, process, and strategy which is called management. Even after the +2 course, management is continuously taught in the bachelor level in more advanced way.</p>
+
+                        <p>  In the case of +2 colleges, management is two years course and it has been offered as one of the faculties. This course provides the basic principles and knowledge about the management stream. This course of higher secondary level aims to set a base for students and motivates them to build their career in the management field. In this level, students are equipped with the necessary skills in order to prepare them for adapting to any type of situations in the business market. This course also provides managerial skills to the students making them more responsible and successful as a business persona.</p>
+
+                        <p>   Management is studied by those who are interested in engaged in the business sector. In +2 management, business studies as a management course are run by many colleges. In this subject, various knowledge regarding organizational activities, processes and operations, principles and different types of managerial roles are included. Besides these, different forms of business organizations, goals and importance are also included in this course. This faculty is tailored with the motive to make a strong foundation for management studies. The course provides both the practical as well as theoretical knowledge regarding this field. Management studies make students more knowledgeable, skillful, confident and competent. Mainly, this helps them to understand the concepts of the management. In +2 level, management is taught to students of business as well as hotel management. After passing this level, both the students from business and hotel management field can upgrade their knowledge at the undergraduate level which includes Bachelor of Business Studies(BBS), Bachelor of Business Administrative(BBA) and Bachelor of Hotel Management(BHM). To enroll this course, students are required to pass SLC.</p>
+
+                        <p> Studying management at +2 level will act as a foundation for studying management course in bachelor level as well. Students gain knowledge regarding business principles and accounting as well which will be the advantages for students to continue in the further study of the base knowledge achieved in +2 level as Management is included in BBA, BBS and even in BIM course.</p>
                     </div>
 
                 </div>
@@ -72,14 +64,14 @@
                     <div class="single-blog-widget mb-50">
                         <h3>categories</h3>
                         <ul>
-                            <li><a href="#">Science</a></li>
-                            <li><a href="#">Management</a></li>
-                            <li><a href="#">School</a></li>
+                            <li><a href="{{route('science.index')}}">Science</a></li>
+                            <li><a href="{{route('management.index')}}">Management</a></li>
+                            <li><a href="{{route('school.index')}}">School</a></li>
                         </ul>
                     </div>
                     <div class="single-blog-widget mb-50">
                         <div class="single-blog-banner">
-                            <a href="blog-details.html" id="blog"><img src="img/blog/blog-img.jpg" alt="blog"></a>
+                            <a id="blog"><img src="{{asset('img/course/education.jpg')}}" alt="blog"></a>
                             <h2>best<br> eductaion<br> theme</h2>
                         </div>
                     </div>

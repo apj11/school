@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-
+use App\Teacherdetail;
 class TeacherdetailsController extends Controller
 {
     /**
@@ -14,7 +14,8 @@ class TeacherdetailsController extends Controller
      */
     public function index()
     {
-        return view('frontend.teacherdetails');
+        $data['teacherdetails'] = Teacherdetail::all();
+        return view('frontend.teacherdetails', $data);
     }
 
     /**
@@ -46,7 +47,9 @@ class TeacherdetailsController extends Controller
      */
     public function show($id)
     {
-        //
+        $data['teacherdetail'] = Teacherdetail::findOrFail($id);
+
+        return view('frontend.teacherdetails', $data)->with('teacherdetail',$data);
     }
 
     /**

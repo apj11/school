@@ -58,7 +58,7 @@
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-gallery-img">
                             <div class="course-img">
-                                <a href="{{route('image.index')}}"> <img src="{{asset(''.$category->image)}}" alt="course">
+                                <a href="{{route('image.show', $category->id)}}"> <img src="{{asset(''.$category->image)}}" alt="course">
                                     <div class="course-hover">
                                         <i class="fa fa-link"></i>
                                     </div>
@@ -66,7 +66,7 @@
                             </div>
                             <div class="course-content">
                                 <h3>{{$category->title}}</h3>
-                                <a class="default-btn" href="{{route('image.index')}}">View More</a>
+                                <a class="default-btn" href="{{route('image.show', $category->id)}}">View More</a>
                             </div>
                         </div>
                     </div>

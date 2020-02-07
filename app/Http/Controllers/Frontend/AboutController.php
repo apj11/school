@@ -15,8 +15,8 @@ class AboutController extends Controller
      */
     public function index()
     {
-        $teacherdetail=DB::select('select * from teacherdetails');
-        return view('frontend.about')->with('teacherdetail',$teacherdetail);
+        $teacherdetails=DB::select('select * from teacherdetails');
+        return view('frontend.about')->with('teacherdetail',$teacherdetails);
     }
 
     /**

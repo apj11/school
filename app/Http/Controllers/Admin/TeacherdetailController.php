@@ -16,7 +16,7 @@ class TeacherdetailController extends Controller
     {
         $teacherdetail = Teacherdetail::all();
         return view('admin.teacherdetail.index')->with('teacherdetail',$teacherdetail);
-         
+
     }
 
     /**
@@ -49,9 +49,9 @@ class TeacherdetailController extends Controller
     'faculty'=>'required',
     'email'=>'required |email',
     'phone'=>'required',
-                 
+
         ]);
-        $teacherdetail = new Teacherdetail() ;      
+        $teacherdetail = new Teacherdetail() ;
         $teacherdetail->name =$request->get('name');
         if($request->hasFile('image')){
             $image=$request->file('image');
@@ -72,7 +72,7 @@ class TeacherdetailController extends Controller
         $teacherdetail->instagram =$request->get('instagram');
         $teacherdetail->twitter =$request->get('twitter');
 
-        $teacherdetail->save();               
+        $teacherdetail->save();
         return back()->with('success','Data submitted successfully');
     }
 
@@ -97,7 +97,7 @@ class TeacherdetailController extends Controller
     {
         $teacherdetail =Teacherdetail::find($id);
         return view('admin.teacherdetail.edit')->with('teacherdetail',$teacherdetail);
-       
+
     }
 
     /**
@@ -120,10 +120,10 @@ class TeacherdetailController extends Controller
             'faculty'=>'required',
             'email'=>'required |email',
             'phone'=>'required',
-                         
+
                 ]);
-                $teacherdetail =Teacherdetail::Find($id) ;   
-                if($id)   
+                $teacherdetail =Teacherdetail::Find($id) ;
+                if($id)
                 {
                     $teacherdetail->name =$request->get('name');
                     if($request->hasFile('image'))
@@ -136,7 +136,7 @@ class TeacherdetailController extends Controller
                     }
                     $teacherdetail->profession =$request->get('profession');
                     $teacherdetail->description =$request->get('description');
-            
+
                     $teacherdetail->degree=$request->get('degree');
                     $teacherdetail->experience =$request->get('experience');
                     $teacherdetail->faculty =$request->get('faculty');
@@ -146,7 +146,7 @@ class TeacherdetailController extends Controller
                     $teacherdetail->instagram =$request->get('instagram');
                     $teacherdetail->twitter =$request->get('twitter');
                 }
-                $teacherdetail->save();               
+                $teacherdetail->save();
                 return back()->with('success','Data submitted successfully');
     }
 

@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-
+use App\Category;
 class ImageController extends Controller
 {
     /**
@@ -14,7 +14,10 @@ class ImageController extends Controller
      */
     public function index()
     {
-        return view('frontend.image');
+        $data['category'] = Category::all();
+//        dd($data);
+        return view('frontend.image',$data);
+
     }
 
     /**
@@ -46,8 +49,11 @@ class ImageController extends Controller
      */
     public function show($id)
     {
-        //
+        $data['category'] = Category::with('galaries')->findOrFail($id);
+//        dd($data);
+        return view('frontend.image',$data);
     }
+
 
     /**
      * Show the form for editing the specified resource.

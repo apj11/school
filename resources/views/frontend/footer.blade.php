@@ -5,22 +5,29 @@
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="single-widget pr-60">
                                 <div class="footer-logo pb-25">
-                                    <a href="index.html"><img src="img/logo/footer-logo.png" alt="eduhome"></a>
+                                    <a href="index.html"><img src="{{asset('img/logo/footer-logo.png')}}" alt="eduhome"></a>
                                 </div>
                                 <p>I must explain to you how all this mistaken idea of denoung pleure and praising pain was born and give you a coete account of the system. </p>
                                 <div class="footer-social">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
                                         <li>
-                                            <a  href="https://www.instagram.com" class="btn-floating btn-gplus">
+                                            <a href="https://www.facebook.com/devitems/?ref=bookmarks" >
+                                                <i class="fa fa-facebook">
+                                                </i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a  href="https://www.instagram.com" >
                                                 <i class="fa fa-instagram"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i>
+                                            <a href="https://twitter.com/devitemsllc" >
+                                            <i class="fa fa-twitter">
+                                            </i>
                                             </a>
                                         </li>
-                                    </ul>    
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -56,14 +63,14 @@
                         </div>
                     </div>
                 </div>
-            </div>   
+            </div>
             <div class="footer-bottom text-center">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
                             <p>Copyright © <a href="https://softechpark.com/" target="_blank">SoftechPark</a> 2017. All Right Reserved By SoftechPark.</p>
-                        </div> 
+                        </div>
                     </div>
-                </div>    
+                </div>
             </div>
         </footer>

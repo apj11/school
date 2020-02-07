@@ -237,11 +237,11 @@
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="single-event mb-35">
                             <div class="event-date">
-                                <h3><a href="{{route('eventdetails.index')}}"><span>{{$event->date}}</span></a></h3>
+                                <h3><a href="{{route('eventdetails.show', $event->id)}}"><span>{{$event->date}}</span></a></h3>
                             </div>
                             <div class="event-content text-left">
                                 <div class="event-content-left">
-                                    <h4><a href="{{route('eventdetails.index')}}">{{$event->title}}</a></h4>
+                                    <h4><a href="{{route('eventdetails.show', $event->id)}}">{{$event->title}}</a></h4>
                                     <ul>
                                         <li><i class="fa fa-clock-o"></i>{{$event->time}}</li>
                                         <li><i class="fa fa-map-marker"></i>{{$event->venue}}</li>
@@ -266,7 +266,7 @@
                             <div class="single-testimonial">
                                 <div class="testimonial-info">
                                     <div class="testimonial-img">
-                                         <img src="{{asset(''.$testimonial->image)}}" height="100px" width="100px">
+                                         <img src="{{asset(''.$testimonial->image)}}">
                                     </div>
                                     <div class="testimonial-content">
                                         <p>{{$testimonial->description}}</p>
@@ -298,7 +298,7 @@
 
                     @foreach($blog as $blog)
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-blog">
+                        <div class="single-gallery-img">
                             <div class="blog-img">
                                 <a href="{{route('blogdetails.show', $blog->id)}}"><img src="{{asset(''.$blog->image)}}" height="300px" width="100%" alt="blog"></a>
                                 <div class="blog-hover">

@@ -10,19 +10,19 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/meanmenu.css">
-        <link rel="stylesheet" href="css/magnific-popup.css">
-        <link rel="stylesheet" href="css/owl.carousel.min.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/et-line-icon.css">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/ionicons.min.css">
-        <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+        <link rel="stylesheet" href="{{asset('css/style.css')}}">
+        <link rel="stylesheet" href="{{asset('css/animate.css')}}">
+        <link rel="stylesheet" href="{{asset('css/meanmenu.css')}}">
+        <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
+        <link rel="stylesheet" href="{{asset('css/owl.carousel.min.cs')}}">
+        <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
+        <link rel="stylesheet" href="{{asset('css/et-line-icon.csss')}}">
+        <link rel="stylesheet" href="{{asset('css/ionicons.min.css')}}">
+        <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
+        <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
+        <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
+        <script src="{{asset('js/vendor/modernizr-2.8.3.min.js')}}"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -33,61 +33,46 @@
         @include('frontend.header')
 		<!-- Header Area End -->
 		<!-- Banner Area Start -->
-		<div class="banner-area-wrapper">
-            <div class="banner-area text-center">	
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="banner-content-wrapper">
-                                <div class="banner-content">
-                                    <h2>event / details</h2> 
-                                </div> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>    
+
 		<!-- Banner Area End -->
         <!-- Event Details Start -->
         <div class="event-details-area blog-area pt-50">
             <div class="container">
                 <div class="row">
+                    @foreach($eventdetail as $eventdetail)
                     <div class="col-md-8">
                         <div class="event-details">
                             <div class="event-details-img">
-                                <img src="img/event/event-details.jpg" alt="event-details">
+                                <img src="{{asset(''.$eventdetail->image)}}"  alt="event-details">
                                 <div class="event-date">
-                                    <h3>20 <span>jun</span></h3>  
+                                    <h3><span>{{$eventdetail->date}}</span></h3>
                                 </div>
                             </div>
                             <div class="event-details-content">
-                                <h2>ADVANCE WED DEVELOPMENT WORKSHOP</h2>
+                                <h2>{{$eventdetail->title}}</h2>
                                 <ul>
-                                    <li><span>time : </span>9:30am - 4:45pm</li>
-                                    <li><span>venue : </span>Cristal Centre, 254 New Yourk</li>
+                                    <li><span>time : </span>{{$eventdetail->time}}</li>
+                                    <li><span>venue : </span>{{$eventdetail->venue}}</li>
                                 </ul>
-                                <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness pcias unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit asnatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui </p>
-                                <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness pcias unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem </p>
-                                <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness pcias unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
-                            </div>    
+                                <p>{{$eventdetail->description}}</p>
+                            </div>
                         </div>
                     </div>
+                    @endforeach
                     <div class="col-md-4">
                         <div class="blog-sidebar right">
                             <div class="single-blog-widget mb-50">
                                 <h3>categories</h3>
                                 <ul>
-                                    <li><a href="#">Science</a></li>
-                                    <li><a href="#">Management</a></li>
-                                    <li><a href="#">School</a></li>
-            
+                                    <li><a href="{{route('science.index')}}">Science</a></li>
+                                    <li><a href="{{route('management.index')}}">Management</a></li>
+                                    <li><a href="{{route('school.index')}}">School</a></li>
+
                                 </ul>
                             </div>
                             <div class="single-blog-widget mb-50">
                                 <div class="single-blog-banner">
-                                    <a href="blog-details.html" id="blog"><img src="img/blog/blog-img.jpg" alt="blog"></a>
-                                    <h2>best<br> eductaion<br> theme</h2> 
+                                    <a id="blog"><img src="{{asset('img/course/education.jpg')}}" alt="blog"></a>
                                 </div>
                             </div>
                             <div class="single-blog-widget mb-50">
@@ -119,7 +104,7 @@
                                     </div>
                                 </div>
                             </div>
-                
+
                         </div>
                     </div>
                 </div>
@@ -129,19 +114,19 @@
         <!-- Subscribe Start -->
         <!-- Subscribe End -->
         <!-- Footer Start -->
-        
+
         @include('frontend.footer')
         <!-- Footer End -->
 
-        <script src="js/vendor/jquery-1.12.0.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.meanmenu.js"></script>
-        <script src="js/jquery.magnific-popup.js"></script>
-        <script src="js/ajax-mail.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/jquery.mb.YTPlayer.js"></script>
-        <script src="js/jquery.nicescroll.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="{{asset('js/vendor/jquery-1.12.0.min.js')}}"></script>
+        <script src="{{asset('js/bootstrap.min.js')}}"></script>
+        <script src="{{asset('js/jquery.meanmenu.js')}}"></script>
+        <script src="{{asset('js/jquery.magnific-popup.js')}}"></script>
+        <script src="{{asset('js/ajax-mail.js')}}"></script>
+        <script src="{{asset('js/owl.carousel.min.js')}}"></script>
+        <script src="{{asset('js/jquery.mb.YTPlayer.js')}}"></script>
+        <script src="{{asset('js/jquery.nicescroll.min.js')}}"></script>
+        <script src="{{asset('js/plugins.js')}}"></script>
+        <script src="{{asset('js/main.js')}}"></script>
     </body>
 </html>
