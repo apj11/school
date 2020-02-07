@@ -1,12 +1,11 @@
 <?php
 
 namespace App\Http\Controllers\Frontend;
-use App\Event;
 use App\Blog;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class EventdetailsController extends Controller
+class BlogController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,9 +14,8 @@ class EventdetailsController extends Controller
      */
     public function index()
     {
-        $blog=Blog::all();
-        $data['events'] = Event::all();
-        return view('frontend.eventdetails',$data)->with('blogs',$blog);
+       $blog=Blog::all();
+        return  view ('frontend.blog')->with('blog',$blog);
     }
 
     /**
@@ -49,11 +47,7 @@ class EventdetailsController extends Controller
      */
     public function show($id)
     {
-        $blog=Blog::all();
-        $data['eventdetail'] = Event::findOrFail($id);
-//        dd($data);
-        return view('frontend.eventdetails', $data)->with('eventdetail',$data)
-            ->with('blogs',$blog);
+        //
     }
 
     /**

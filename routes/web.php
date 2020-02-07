@@ -22,6 +22,7 @@
         Route::resource('galleries','Frontend\GalleryController');
         Route::resource('downloads','Frontend\DownloadController');
         Route::resource('contacts','Frontend\ContactController');
+        Route::resource('blogs','Frontend\BlogController');
         Route::resource('/image','Frontend\ImageController');
 
         Route::resource('/management','Frontend\ManagementController');

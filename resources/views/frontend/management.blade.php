@@ -72,35 +72,20 @@
                     <div class="single-blog-widget mb-50">
                         <div class="single-blog-banner">
                             <a id="blog"><img src="{{asset('img/course/education.jpg')}}" alt="blog"></a>
-                            <h2>best<br> eductaion<br> theme</h2>
                         </div>
                     </div>
                     <div class="single-blog-widget mb-50">
-                        <h3>latest post</h3>
+                        <h3>Latest post</h3>
                         <div class="single-post mb-30">
                             <div class="single-post-img">
-                                <a href="blog-details.html"><img src="img/post/post1.jpg" alt="post">
+                                <a href={{route('blogs.index')}}><img src="img/course/post.jpg" alt="post">
                                     <div class="blog-hover">
                                         <i class="fa fa-link"></i>
                                     </div>
                                 </a>
                             </div>
-                            <div class="single-post-content">
-                                <h4><a href="blog-details.html">English Language Course for you</a></h4>
-                                <p>By Alex  /  June 20, 2017</p>
-                            </div>
-                        </div>
-                        <div class="single-post mb-30">
-                            <div class="single-post-img">
-                                <a href="blog-details.html"><img src="img/post/post2.jpg" alt="post">
-                                    <div class="blog-hover">
-                                        <i class="fa fa-link"></i>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="single-post-content">
-                                <h4><a href="blog-details.html">Advance Web Design and Develop</a></h4>
-                                <p>By Alex  /  June 20, 2017</p>
+                            <div class="event-content-right">
+                                <a class="default-btn" href="{{route('blogs.index')}}">View Now</a>
                             </div>
                         </div>
                     </div>

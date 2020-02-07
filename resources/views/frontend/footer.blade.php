@@ -35,10 +35,10 @@
                             <div class="single-widget">
                                 <h3>information</h3>
                                 <ul>
-                                    <li><a href="downloads">Addmission</a></li>
-                                    <li><a href="downloads">Academic Calender</a></li>
-                                    <li><a href="events">Event List</a></li>
-                                    <li><a href="blogs">Blog</a></li>
+                                    <li><a href={{route('downloads.index')}}>Addmission</a></li>
+                                    <li><a href={{route('downloads.index')}}>Academic Calender</a></li>
+                                    <li><a href={{route('events.index')}}>Event List</a></li>
+                                    <li><a href={{route('blogs.index')}}>Blog</a></li>
                                 </ul>
                             </div>
                         </div>

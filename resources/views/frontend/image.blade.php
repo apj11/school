@@ -36,7 +36,7 @@
 
         <div class="event-area three text-center pt-50">
             <div class="container">
-                <div class="row">
+                <div class="row single-gallery-img">
                     @foreach($category->galaries as $gallery)
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-event mb-60">

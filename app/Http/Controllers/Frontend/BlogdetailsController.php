@@ -15,6 +15,7 @@ class BlogdetailsController extends Controller
      */
     public function index()
     {
+
         $data['blogs'] = Blog::all();
         return view('frontend.blogdetails', $data);
     }
@@ -48,11 +49,11 @@ class BlogdetailsController extends Controller
      */
     public function show($id)
     {
-//        $data['blogs'] = Blog::all();
+
         $data['blogdetail'] = Blog::findOrFail($id);
 //        dd($data);
         return view('frontend.blogdetails', $data)->with('blogdetail',$data);
-//            ->with('blog',$data);
+
     }
 
     /**
