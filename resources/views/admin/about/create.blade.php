@@ -229,11 +229,11 @@
 
 
 
-    {{--<!-- jQuery, Bootstrap.js, jQuery plugins and Custom JS code -->--}}
-    {{--<script src="{{'js/vendor/jquery.min.js'}}"></script>--}}
-    {{--<script src="{{'js/vendor/bootstrap.min.js'}}"></script>--}}
-    {{--<script src="{{'js/plugins.js'}}"></script>--}}
-    {{--<script src="{{asset('js/app.js')}}"></script>--}}
+    <!-- jQuery, Bootstrap.js, jQuery plugins and Custom JS code -->
+    <script src="{{'js/vendor/jquery.min.js'}}"></script>
+    <script src="{{'js/vendor/bootstrap.min.js'}}"></script>
+    <script src="{{'js/plugins.js'}}"></script>
+    <script src="{{asset('js/app.js')}}"></script>
 
     <!-- ckeditor.js, load it only in the page you would like to use CKEditor (it's a heavy plugin to include it with the others!) -->
     <script src="{{asset('js/helpers/ckeditor/ckeditor.js')}}"></script>

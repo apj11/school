@@ -1841,6 +1841,19 @@ textarea {
     background-attachment: fixed;
     position: relative;
 }
+
+/*.nicescroll-cursors{*/
+/*    position: relative;*/
+/*    top: -265px;*/
+/*    float: right;*/
+/*    width: 6px;*/
+/*    height: 208px;*/
+/*    background-color: rgb(236, 28, 35);*/
+/*    border: 0px solid rgb(255, 255, 255);*/
+/*    background-clip: padding-box;*/
+/*    border-radius: 5px;*/
+/*    touch-action: none;*/
+/*}*/
 .testimonial-area:after{
     position: absolute;
     left: 0;

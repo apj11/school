@@ -49,12 +49,10 @@
     Route::get('/gallery/delete/{id}','Admin\GalleryController@destroy')->name('gallery.destroy');
 
     Route::resource('/contact','Admin\ContactController');
+    Route::get('/contact/delete/{id}','Admin\ContactController@destroy')->name('contact.destroy');
 
     Route::resource('/teacherdetail','Admin\TeacherdetailController');
     Route::get('/teacherdetail/delete/{id}','Admin\TeacherdetailController@destroy')->name('teacherdetail.destroy');
-
-//    Route::resource('/contact','Admin\ContactController');
-//    Route::get('/contact_view','Admin\ContactController@index1')->name('contact-view');
 
     Route::resource('/blog','Admin\BlogController');
     Route::get('/blog/delete/{id}','Admin\BlogController@destroy')->name('blog.destroy');
@@ -70,7 +68,7 @@
 
     Route::resource('/category','Admin\CategoryController');
     Route::get('/category/delete/{id}','Admin\CategoryController@destroy')->name('category.destroy');
-    // Route::resource('/product','Admin\ProductController');
+
 
     Route::resource('/testimonial', 'Admin\TestimonialController');
     Route::get('/testimonial/delete/{id}','Admin\TestimonialController@destroy')->name('testimonial.destroy');

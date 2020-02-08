@@ -33,7 +33,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12">
                             <div class="single-widget">
-                                <h3>information</h3>
+                                <h3>Information</h3>
                                 <ul>
                                     <li><a href={{route('downloads.index')}}>Addmission</a></li>
                                     <li><a href={{route('downloads.index')}}>Academic Calender</a></li>
@@ -44,12 +44,12 @@
                         </div>
                         <div class="col-md-2 col-sm-6 col-xs-12">
                             <div class="single-widget">
-                                <h3>useful links</h3>
+                                <h3>Useful links</h3>
                                 <ul>
-                                    <li><a href="courses">Our Courses</a></li>
-                                    <li><a href="abouts">About Us</a></li>
-                                    <li><a href="teachers">Teachers &amp; faculty</a></li>
-                                    <li><a href="events">Our Events</a></li>
+                                    <li><a href={{route('contacts.index')}}>Contact us</a></li>
+                                    <li><a href={{route('abouts.index')}}>About Us and Teachers</a></li>
+                                    <li><a href={{route('galleries.index')}}>Gallery</a></li>
+                                    <li><a href={{route('events.index')}}>Our Events</a></li>
                                 </ul>
                             </div>
                         </div>

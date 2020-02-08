@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 use App\Contact;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+Use DB;
 
 class ContactController extends Controller
 {
@@ -14,7 +15,9 @@ class ContactController extends Controller
      */
     public function index()
     {
-        $contact = Contact::all();
+
+        $contact=DB::select('select * from contacts');
+//        $contact = Contact::all();
         return view('admin.contact.index')
             ->with('contact',$contact);
     }
@@ -49,7 +52,9 @@ class ContactController extends Controller
      */
     public function show($id)
     {
-
+//        $contact = Contact::all();
+//        return view('admin.contact.index')
+//            ->with('contact',$contact);
     }
 
     /**
@@ -83,6 +88,8 @@ class ContactController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $contact=Contact::find($id);
+        $contact->delete();
+        return back()->with('success','data has been deleted successfully');
     }
 }
