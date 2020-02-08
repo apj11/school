@@ -54,9 +54,9 @@
 
 
                             <ul>
-                                <li><span>Begree: </span>{{$teacherdetail->degree}}</li>
-                                <li><span>Experience: </span>{{$teacherdetail->experience}}</li>
-                                <li><span>Faculty: </span>{{$teacherdetail->faculty}}</li>
+                                <li><span>Degree : </span>{{$teacherdetail->degree}}</li>
+                                <li><span>Experience : </span>{{$teacherdetail->experience}}</li>
+                                <li><span>Faculty : </span>{{$teacherdetail->faculty}}</li>
                             </ul>
                         </div>
                     </div>
