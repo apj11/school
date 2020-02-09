@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="61ffe450-e40a-4156-8b38-43f5332cb9a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/blogdetails.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/blogdetails.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/eventdetails.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/eventdetails.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/image.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/image.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/management.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/management.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/school.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/school.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/science.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/science.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/teacherdetails.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/teacherdetails.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,6 +170,7 @@
       <workItem from="1581073007517" duration="12151000" />
       <workItem from="1581167377497" duration="9861000" />
       <workItem from="1581216334030" duration="2413000" />
+      <workItem from="1581222065067" duration="2495000" />
     </task>
     <servers />
   </component>
@@ -201,10 +197,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="116" y="0" width="1154" height="738" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1580840595812" />
-    <state x="398" y="133" key="com.intellij.ide.util.TipDialog" timestamp="1581216352685">
+    <state x="398" y="133" key="com.intellij.ide.util.TipDialog" timestamp="1581222306535">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="398" y="133" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1581216352685" />
+    <state x="398" y="133" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1581222306535" />
     <state x="398" y="138" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1580997529133" />
     <state x="492" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581055680535">
       <screen x="0" y="0" width="1366" height="738" />

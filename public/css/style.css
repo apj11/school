@@ -2238,7 +2238,7 @@ textarea {
 .newsletter-form form button {
     padding: 11px 30px 12px;
     position: absolute;
-    right: 1px;
+    right: 35%;
     top: 1px;
 }
 .newsletter-form form button:hover{
