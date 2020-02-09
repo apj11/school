@@ -16,9 +16,10 @@ class IndexController extends Controller
      */
     public function index()
     {
+
         $notice=DB::select('select * from notices');
         $event=DB::select('select * from events');
-        $blog= Blog::all();
+        $blog= Blog::latest()->get();
         $testimonial= Testimonial::all();
         return view('frontend.index',['event'=>$event],['notice'=>$notice])
             ->with('testimonial',$testimonial)

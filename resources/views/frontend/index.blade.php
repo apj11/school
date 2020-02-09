@@ -257,14 +257,17 @@
         </div>
         <!-- Event Area End -->
         <!-- Testimonial Area Start -->
+
         <div class="testimonial-area pt-50 pb-60 text-center">
             <div class="container">
                 <div class="row">
-                    @foreach($testimonial as $testimonial)
-                    <div class="testimonial-owl owl-theme owl-carousel">
+
+                    <div class="testimonial-owl owl-theme owl-carousel">@foreach($testimonial as $testimonial)
                         <div class="col-md-8 col-md-offset-2 col-sm-12">
                             <div class="single-testimonial">
+
                                 <div class="testimonial-info">
+
                                     <div class="testimonial-img">
                                          <img src="{{asset(''.$testimonial->image)}}">
                                     </div>
@@ -273,11 +276,12 @@
                                         <h4>{{$testimonial->name}}</h4>
                                         <h5>{{$testimonial->title}}</h5>
                                     </div>
+
                                 </div>
                             </div>
-                        </div>
+                        </div>@endforeach
                     </div>
-                    @endforeach
+
                 </div>
             </div>
         </div>

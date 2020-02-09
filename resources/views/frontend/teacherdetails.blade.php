@@ -45,25 +45,6 @@
                         <div class="teacher-details-img">
                             <img src="{{asset(''.$teacherdetail->image)}}" alt="teacher">
                         </div>
-                    </div>
-                    <div class="col-md-7 col-sm-7 col-xs-12">
-                        <div class="teacher-details-content ml-50">
-                            <h2>{{$teacherdetail->name}}</h2>
-                            <h5>{{$teacherdetail->profession}}</h5>
-                              <p>{{$teacherdetail->description}}</p>
-
-
-                            <ul>
-                                <li><span>Degree : </span>{{$teacherdetail->degree}}</li>
-                                <li><span>Experience : </span>{{$teacherdetail->experience}}</li>
-                                <li><span>Faculty : </span>{{$teacherdetail->faculty}}</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="row">
-                    <div class="col-md-3 col-sm-4">
                         <div class="teacher-contact">
                             <h4>Contact information</h4>
                             <p><span>Mail me : </span>{{$teacherdetail->email}}</p>
@@ -91,7 +72,20 @@
                             </ul>
                         </div>
                     </div>
+                    <div class="col-md-7 col-sm-7 col-xs-12">
+                        <div class="teacher-details-content ml-50">
+                            <h2>{{$teacherdetail->name}}</h2>
+                            <h5>{{$teacherdetail->profession}}</h5>
+                              <p>{{$teacherdetail->description}}</p>
 
+
+                            <ul>
+                                <li><span>Degree : </span>{{$teacherdetail->degree}}</li>
+                                <li><span>Experience : </span>{{$teacherdetail->experience}}</li>
+                                <li><span>Faculty : </span>{{$teacherdetail->faculty}}</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             @endforeach

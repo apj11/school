@@ -15,7 +15,7 @@ class EventController extends Controller
      */
     public function index()
     {
-        $event=Event::all();
+        $event=Event::latest()->get();
         return view('frontend.event')->with('event',$event);
     }
 

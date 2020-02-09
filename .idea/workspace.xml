@@ -2,9 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61ffe450-e40a-4156-8b38-43f5332cb9a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581225947CV.Abishek .pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581227006AVIcover .docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581228520CUNKx8S.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581228672download (1).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581228678download (2).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581228684download.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581228723download.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581228743download (1).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581228755download (2).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581228968management.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581229245about1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581229443CUNKx8S.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581230395CUNKx8S.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/blogdetails.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/blogdetails.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/BlogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/DownloadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/DownloadController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/EventController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/EventController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/download.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/download.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/teacherdetails.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/teacherdetails.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +188,7 @@
       <workItem from="1581073007517" duration="12151000" />
       <workItem from="1581167377497" duration="9861000" />
       <workItem from="1581216334030" duration="2413000" />
-      <workItem from="1581222065067" duration="3076000" />
+      <workItem from="1581222065067" duration="12097000" />
     </task>
     <servers />
   </component>
@@ -205,18 +224,18 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="492" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1581055680535" />
-    <state x="0" y="0" width="737" height="738" key="find.popup" timestamp="1581081443924">
+    <state x="0" y="0" width="737" height="738" key="find.popup" timestamp="1581230799280">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="0" y="0" width="737" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1581081443924" />
+    <state x="0" y="0" width="737" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1581230799280" />
     <state x="371" y="216" width="707" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1580838246932">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="371" y="216" width="707" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.738@0.0.1366.738" timestamp="1580838246932" />
-    <state x="339" y="165" key="run.anything.popup" timestamp="1581057537062">
+    <state x="339" y="165" key="run.anything.popup" timestamp="1581226518161">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1581057537062" />
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1581226518161" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1580883469502">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

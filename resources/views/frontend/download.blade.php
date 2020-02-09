@@ -67,7 +67,7 @@
                         <td >{!! $download ->description !!} </td>
                         <td >{{$download->date}} </td>
                         <td>
-                        <a href="<?php echo $download["file"] ?>"<?php echo $download["file"] ?> class="btn btn-info btn-lg">
+                        <a href="<?php echo $download["file"] ?>"<?php echo $download["file"] ?> class="default-btn">
                             Download
                             </a>
                         </td>

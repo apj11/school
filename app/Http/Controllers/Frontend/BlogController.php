@@ -14,7 +14,7 @@ class BlogController extends Controller
      */
     public function index()
     {
-       $blog=Blog::all();
+       $blog=Blog::latest()->get();
         return  view ('frontend.blog')->with('blog',$blog);
     }
 

@@ -15,7 +15,7 @@ class DownloadController extends Controller
      */
     public function index()
     {
-        $download=Download::all();
+        $download=Download::latest()->get();
         return view('frontend.download')
         ->with('download',$download);
     }
