@@ -113,7 +113,7 @@
                             @foreach($notice as $notice)
                             <div class="single-notice-left mb-25 pb-25">
                                 <h4>{{$notice->date}}</h4>
-                                <p>{!! $notice->description !!}</p>
+                                <p>{{$notice->description}} </p>
                             </div>
                             @endforeach
                         </div>

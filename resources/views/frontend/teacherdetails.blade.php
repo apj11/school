@@ -65,7 +65,7 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-4">
                         <div class="teacher-contact">
-                            <h4>contact information</h4>
+                            <h4>Contact information</h4>
                             <p><span>Mail me : </span>{{$teacherdetail->email}}</p>
                             <p><span>Make a call : </span>{{$teacherdetail->phone}}</p>
                             <ul>
