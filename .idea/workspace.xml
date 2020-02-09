@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61ffe450-e40a-4156-8b38-43f5332cb9a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581225947CV.Abishek .pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581227006AVIcover .docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581228520CUNKx8S.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581228672download (1).jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581228678download (2).jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581228684download.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581228723download.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581228743download (1).jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581228755download (2).jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581228968management.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581229245about1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581229443CUNKx8S.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581230395CUNKx8S.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/BlogController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/DownloadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/DownloadController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/EventController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/EventController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/download.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/download.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/teacherdetails.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/teacherdetails.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="61ffe450-e40a-4156-8b38-43f5332cb9a9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,7 +165,7 @@
       <workItem from="1581073007517" duration="12151000" />
       <workItem from="1581167377497" duration="9861000" />
       <workItem from="1581216334030" duration="2413000" />
-      <workItem from="1581222065067" duration="12097000" />
+      <workItem from="1581222065067" duration="12194000" />
     </task>
     <servers />
   </component>
