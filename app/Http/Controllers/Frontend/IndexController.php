@@ -6,7 +6,8 @@ use DB;
 use App\Blog;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-
+use App\Notice;
+use App\Event;
 class IndexController extends Controller
 {
     /**
@@ -17,13 +18,18 @@ class IndexController extends Controller
     public function index()
     {
 
-        $notice=DB::select('select * from notices');
-        $event=DB::select('select * from events');
+//      $notice=DB::select('select * from notices');
+
+//        $event=DB::select('select * from events');
+        $notice=Notice::latest()->get();
+        $event=Event::latest()->get();
         $blog= Blog::latest()->get();
-        $testimonial= Testimonial::all();
-        return view('frontend.index',['event'=>$event],['notice'=>$notice])
+        $testimonial= Testimonial::latest()->get();
+        return view('frontend.index')
             ->with('testimonial',$testimonial)
-        ->with('blog',$blog);
+        ->with('blog',$blog)
+        ->with('notice',$notice)
+        ->with('event',$event);
 //
     }
 

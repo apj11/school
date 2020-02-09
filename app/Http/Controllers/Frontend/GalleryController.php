@@ -16,7 +16,8 @@ class GalleryController extends Controller
      */
     public function index()
     {
-        $category=DB::select('select * from categories');
+        $category=Category::latest()->get();
+//        $category=DB::select('select * from categories');
         return view('frontend.gallery')->with('category',$category);
     }
 

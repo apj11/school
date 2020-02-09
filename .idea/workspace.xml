@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61ffe450-e40a-4156-8b38-43f5332cb9a9" name="Default Changelist" comment="" />
+    <list default="true" id="61ffe450-e40a-4156-8b38-43f5332cb9a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/GalleryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/GalleryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/blog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/blogdetails.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/blogdetails.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/course.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/course.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/download.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/download.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/event.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/event.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/eventdetails.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/eventdetails.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/gallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/gallery.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/image.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/image.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/management.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/management.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/school.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/school.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/science.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/science.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/teacher.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/teacher.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/teacherdetails.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/teacherdetails.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +186,7 @@
       <workItem from="1581073007517" duration="12151000" />
       <workItem from="1581167377497" duration="9861000" />
       <workItem from="1581216334030" duration="2413000" />
-      <workItem from="1581222065067" duration="12194000" />
+      <workItem from="1581222065067" duration="20049000" />
     </task>
     <servers />
   </component>
@@ -201,22 +222,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="492" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1581055680535" />
-    <state x="0" y="0" width="737" height="738" key="find.popup" timestamp="1581230799280">
+    <state x="0" y="0" width="737" height="738" key="find.popup" timestamp="1581244104441">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="0" y="0" width="737" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1581230799280" />
+    <state x="0" y="0" width="737" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1581244104441" />
     <state x="371" y="216" width="707" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1580838246932">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="371" y="216" width="707" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.738@0.0.1366.738" timestamp="1580838246932" />
-    <state x="339" y="165" key="run.anything.popup" timestamp="1581226518161">
+    <state x="339" y="165" key="run.anything.popup" timestamp="1581236053046">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1581226518161" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1580883469502">
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1581236053046" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1581246640046">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1580883469502" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1581246640046" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
