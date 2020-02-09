@@ -83,7 +83,7 @@
                                         </a>
                                     </div>
                                     <div class="event-content-right">
-                                        <a class="default-btn" href="{{route('blogs.index')}}">View Now</a>
+                                        <a class="default-btn"  href="{{route('blogs.index')}}">View Now</a>
                                     </div>
                                 </div>
                             </div>
