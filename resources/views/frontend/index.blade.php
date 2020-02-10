@@ -125,11 +125,11 @@
                                 <p>I must explain to you how all this mistaken idea of denouncing pleure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings </p>
                             </div>
                             <div class="single-notice-right mb-25 pb-25">
-                                <h3>Science</h3>
+                                <h3>+2 Science</h3>
                                 <p>I must explain to you how all this mistaken idea of denouncing pleure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings </p>
                             </div>
                             <div class="single-notice-right">
-                                <h3>Management</h3>
+                                <h3>+2 Management</h3>
                                 <p>I must explain to you how all this mistaken idea of denouncing pleure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings </p>
                             </div>
                         </div>
@@ -192,7 +192,7 @@
                                 </a>
                             </div>
                             <div class="course-content">
-                                <h3><a href="{{route('science.index')}}">Science</a></h3>
+                                <h3><a href="{{route('science.index')}}">+2 Science</a></h3>
                                 <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness</p>
                                 <a class="default-btn" href="{{route('science.index')}}">Read more</a>
                             </div>
@@ -208,7 +208,7 @@
                                 </a>
                             </div>
                             <div class="course-content">
-                                <h3><a href="{{route('management.index')}}">Management</a></h3>
+                                <h3><a href="{{route('management.index')}}">+2 Management</a></h3>
                                 <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness</p>
                                 <a class="default-btn" href="{{route('management.index')}}">read more</a>
                             </div>

@@ -35,8 +35,8 @@
                     <div class="single-blog-widget mb-50">
                         <h3>categories</h3>
                         <ul>
-                            <li><a href="{{route('science.index')}}">Science</a></li>
-                            <li><a href="{{route('management.index')}}">Management</a></li>
+                            <li><a href="{{route('science.index')}}">+2 Science</a></li>
+                            <li><a href="{{route('management.index')}}">+2 Management</a></li>
                             <li><a href="{{route('school.index')}}">School</a></li>
                         </ul>
                     </div>

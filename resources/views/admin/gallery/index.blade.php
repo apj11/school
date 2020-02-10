@@ -270,7 +270,7 @@
                 <thead>
                 <tr>
                     <<th >ID</th>
-                    <th>Title</th>
+
                     <th >Image</th>
                     <th >Category</th>
                     {{--                    <th >Author</th>--}}
@@ -288,8 +288,7 @@
                 @foreach($gallery as $key =>$gallery )
                     <tr id="gallery{{$gallery->id}}">
                         <td class="text-center">{{++$key}}</td>
-                        <td>{{$gallery->title}}</td>
-                        <td >{!! $gallery->description !!}  </td>
+
                         <td ><img src="{{asset(''.$gallery->image)}}" height="100px" width="100px"></td>
                         <td>
                             @if(isset($gallery->category))

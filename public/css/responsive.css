@@ -244,6 +244,12 @@
     .notice-video {height: 275px}
     .footer-area.three .footer-bottom.two p {padding-top: 15px; line-height: 20px}
     .footer-area.three .footer-bottom.two .footer-social ul{padding-top: 0px}
+    .mean-container a.meanmenu-reveal{
+    top: -20px;
+}
+.mobile-menu.hidden-lg.hidden-md.hidden-sm.mean-container .mean-bar a{
+    color: #2c2b5e;
+}
     
 }
 /* Large Mobile :480px. */

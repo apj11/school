@@ -31,9 +31,9 @@
                                     <img src="img/contact/contact1.png" alt="contact">
                                 </div>
                                 <div class="contact-add">
-                                    <h3>address</h3>
-                                    <p>135, First Lane, City Street</p>
-                                    <p>New Yourk City, USA</p>
+                                    <h3>Address</h3>
+                                    <p>Tinkune</p>
+                                    <p>Kathmandu, Nepal</p>
                                 </div>
                             </div>
                             <div class="single-contact mb-65">
@@ -41,9 +41,9 @@
                                     <img src="img/contact/contact2.png" alt="contact">
                                 </div>
                                 <div class="contact-add">
-                                    <h3>address</h3>
-                                    <p>135, First Lane, City Street</p>
-                                    <p>New Yourk City, USA</p>
+                                    <h3>Address</h3>
+                                    <p>Tinkune</p>
+                                    <p>Kathmandu, Nepal</p>
                                 </div>
                             </div>
                             <div class="single-contact">
@@ -51,9 +51,9 @@
                                     <img src="img/contact/contact3.png" alt="contact">
                                 </div>
                                 <div class="contact-add">
-                                    <h3>address</h3>
-                                    <p>135, First Lane, City Street</p>
-                                    <p>New Yourk City, USA</p>
+                                    <h3>Address</h3>
+                                    <p>Tinkune</p>
+                                    <p>Kathmandu, Nepal</p>
                                 </div>
                             </div>
                         </div>
@@ -65,14 +65,14 @@
                             <form method="post" action="contacts">
                                 <input type = "hidden" name = "_token" value = "<?php echo csrf_token(); ?>">
                                 <p>Name</p>
-                                <input type="text" name="name">
+                                <input type="text" name="name" required>
                                 <p>Email</p>
-                                <input type="text" name="email" >
+                                <input type="text" name="email"  required>
                                  <p>Subject</p>
-                                <input type="text" name="subject" >
+                                <input type="text" name="subject" required>
                                 <p>Message</p>
-                                <textarea rows="8" name="message" cols="50" ></textarea>
-                                <button class="default-btn" type="submit"><span>Sent Message</span></button>
+                                <textarea rows="8" name="message" cols="50" required></textarea>
+                                <button class="default-btn" type="submit" ><span>Sent Message</span></button>
                                 <!-- <button type="submit" class='btn btn-primary'>Send Message</button> -->
                             </form>
                              <!-- <form id="contact-form" action="mail.php" method="post">

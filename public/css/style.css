@@ -2237,8 +2237,9 @@ textarea {
 }
 .newsletter-form form button {
     padding: 11px 30px 12px;
-    position: absolute;
-    right: 35%;
+    position: center;
+    width: 100%;
+    /*right: 35%;*/
     top: 1px;
 }
 .newsletter-form form button:hover{
@@ -3002,4 +3003,18 @@ textarea {
   .modal-content {
     width: 100%;
   }
+}
+
+.mean-container .mean-nav{
+    margin-top:0 !important;
+}
+
+.mean-container .mean-bar{
+    min-height:0 !important;
+    padding: 0!important;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.mean-container a.meanmenu-reveal{
+    top: -20px;
 }
