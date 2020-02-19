@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61ffe450-e40a-4156-8b38-43f5332cb9a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581312741CUNKx8S.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581314331gettyimages-853335330-e221e60e-6244-40b0-8ad0-453d10b8363f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581314349photo-1453738773917-9c3eff1db985.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581314363photo-1493225457124-a3eb161ffa5f.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581314376singing-program1527266946.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/topwide/1581314899photo-1453738773917-9c3eff1db985.jfif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/cassie.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/cassie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/meanmenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/meanmenu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/gallery/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/gallery/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/blogdetails.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/blogdetails.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/eventdetails.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/eventdetails.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/management.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/management.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/school.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/school.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/science.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/science.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/gallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/gallery.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +141,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../enotes" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
@@ -189,7 +174,11 @@
       <workItem from="1581222065067" duration="20049000" />
       <workItem from="1581302447559" duration="1780000" />
       <workItem from="1581308603219" duration="8354000" />
-      <workItem from="1581321184810" duration="1531000" />
+      <workItem from="1581321184810" duration="3000000" />
+      <workItem from="1581329044199" duration="1289000" />
+      <workItem from="1581394267850" duration="1012000" />
+      <workItem from="1581484862064" duration="2463000" />
+      <workItem from="1582001028578" duration="5844000" />
     </task>
     <servers />
   </component>
@@ -212,23 +201,27 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="125" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1581171106841" />
+    <state x="463" y="125" key="FileChooserDialogImpl" timestamp="1582006568829">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="125" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1582006568829" />
     <state x="116" y="0" width="1154" height="738" key="SettingsEditor" timestamp="1580840595812">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="116" y="0" width="1154" height="738" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1580840595812" />
-    <state x="398" y="133" key="com.intellij.ide.util.TipDialog" timestamp="1581321499691">
+    <state x="398" y="133" key="com.intellij.ide.util.TipDialog" timestamp="1581484862219">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="398" y="133" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1581321499691" />
+    <state x="398" y="133" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1581484862219" />
     <state x="398" y="138" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1580997529133" />
     <state x="492" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581055680535">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="492" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1581055680535" />
-    <state x="0" y="0" width="737" height="738" key="find.popup" timestamp="1581244104441">
+    <state x="0" y="0" width="737" height="738" key="find.popup" timestamp="1582001337398">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="0" y="0" width="737" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1581244104441" />
+    <state x="0" y="0" width="737" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1582001337398" />
     <state x="371" y="216" width="707" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1580838246932">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

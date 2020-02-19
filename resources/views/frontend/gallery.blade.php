@@ -1,5 +1,4 @@
 @extends('frontend.app')
-
 @section('content')
 		<!-- Header Area End -->
 		<!-- Banner Area Start -->
@@ -43,7 +42,7 @@
             </div>
         </div>
 
-        @endsection
+
 
 
 <script type="text/javascript">
@@ -51,3 +50,4 @@ $(function () {
 $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
 });
 </script>
+@endsection

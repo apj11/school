@@ -29,7 +29,6 @@
 
 @yield('content')
 
-
 @include('frontend.footer')
 </div>
 

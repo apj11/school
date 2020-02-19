@@ -147,7 +147,7 @@
         <!-- Subscribe End -->
         <!-- Footer Start -->
 
-    @endsection
+
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSLSFRa0DyBj9VGzT7GM6SFbSMcG0YNBM "></script>
         <script type="text/javascript">
             google.maps.event.addDomListener(window, 'load', init);
@@ -168,4 +168,4 @@
             }
         </script>
         <script src="js/main.js"></script>
-
+@endsection
